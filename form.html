@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            margin: 0;
+            background-image: url(https://img.freepik.com/premium-vector/abstract-wave-lines-colorful-blue-isolated-dark-background-concept-ai-technology-digital_551880-276.jpg?semt=ais_hybrid&w=740&q=80);
+            min-height: 100vh;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+            .parent-container {
+                width: 35%;
+                border: 1px solid white;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            .parent-container h2{ 
+                font-size: 2rem;
+                text-align: center;
+                color: white;
+                font-family: sans-serif;
+            }
+            .field{
+                margin-bottom: 20px;
+            }
+            .field input{
+                 padding: 10px;
+                width: 90%;
+                font-size: 1.3rem;
+            }
+            .dropdown select{
+                 padding: 10px;
+                width: 90%;
+                font-size: 1.3rem;
+                margin-bottom: 20px;
+            }
+            .parent-container button{
+                background-color: green;
+                padding: 10px;
+                color: white;
+                width: 25%;
+                font-size: 1.5rem;
+            }
+    </style>
+</head>
+<body>
+   <form  class ="parent-container" action="https//www.google.com">
+    <h2>Register</h2>
+    <div class ="form field">
+    <input type= "text" placeholder="enter name" name = "firstname"> 
+    </div>
+    <div class ="form field">
+    <input type="email" placeholder="enter email" email="usermail"> 
+</div>
+    <div class ="form field">
+    <input type="password" placeholder="enter password" password="userpass">
+    </div>
+    <div class ="form dropdown">
+    <select name="city">
+        <option value="select your city"></option>
+        <option value="hyderabad">HYDERABAD</option>
+        <option value="bengaluru">BENGALURU</option>
+        <option value="chennai">CHENNAI</option>
+        <option value="vizag">VIZAG</option>
+        <option value="mumbai">MUMBAI</option>
+    </select> 
+    </div>
+    <div >
+    <button>submit</button>
+    </div>
+   </form>
+</body>
+</html>
